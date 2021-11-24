@@ -149,7 +149,7 @@ app.delete('/pokemons/:id', function(req,res){
 
   connection.connect();
 
-  myQuery = "DROP FROM pokemon" +
+  myQuery = "DELETE FROM pokemon" +
             " WHERE id = ? ";
   var myValues = [req.params.id];
 
