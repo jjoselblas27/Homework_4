@@ -9,7 +9,7 @@ El visualizador de pokemones de la maestra Pokemón Misty se averió! Y lo neces
 1. Abrir MySQL
 2. Ejecutar el script de inicialización de la DB:
 
-`source base_datos.sql`
+`source pokedex.sql`
 
 3. Necesita tener el siguiente usuario:
 
