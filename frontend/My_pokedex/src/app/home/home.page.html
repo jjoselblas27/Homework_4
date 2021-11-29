@@ -1,32 +1,17 @@
 <ion-header>
   <ion-toolbar>
-    <ion-title>POKEMON</ion-title>
+    <ion-title>POKEDEX</ion-title>
   </ion-toolbar>
 </ion-header>
 
 <ion-content>
+  <ion-header collapse="condense">
+    <ion-toolbar>
+      <ion-title size="large"> POKEDEX</ion-title>
+    </ion-toolbar>
+  </ion-header>
 
-  <H1>Bienvenido a la pokedex de la doctora ......</H1>
+  <img [src]="PokemonImagen" alt="imagen de una pokedex">
 
-  <img src="https://cdn.dribbble.com/users/1363206/screenshots/5497614/pokedex_dribbble-01_4x.jpg" alt="imagen de una pokedex">
-
+ 
 </ion-content>
-
-<ion-tabs>
-  <ion-tab-bar slot="bottom">
-
-    <!-- problema con el boton a si mismo -->
-    <ion-tab-button tab="">
-      <ion-icon name="triangle"></ion-icon>
-      <ion-label>home</ion-label>
-    </ion-tab-button>
-
-    <ion-tab-button tab="pokemons">
-      <ion-icon name="information-circle"></ion-icon>
-      <ion-label>pokemons</ion-label>
-    </ion-tab-button>
-  
-  </ion-tab-bar>
-
-
-</ion-tabs>

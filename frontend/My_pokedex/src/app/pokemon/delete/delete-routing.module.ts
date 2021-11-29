@@ -1,18 +1,17 @@
 import { NgModule } from '@angular/core';
 import { Routes, RouterModule } from '@angular/router';
 
-import { ViewPage } from './view.page';
+import { DeletePage } from './delete.page';
 
 const routes: Routes = [
   {
     path: '',
-    component: ViewPage
-  },
-
+    component: DeletePage
+  }
 ];
 
 @NgModule({
   imports: [RouterModule.forChild(routes)],
   exports: [RouterModule],
 })
-export class ViewPageRoutingModule {}
+export class DeletePageRoutingModule {}
